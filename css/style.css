@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+body{
+    background-color: #f1eee7;
+}
+.navbar-container{
+    width: 99%;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+    background: linear-gradient(to bottom, rgb(83, 61, 14) 70%, rgba(255, 255, 255, 0) 100%);
+}
+span{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav li{
+    margin: 0 10px;
+    text-align: center;
+    width: 70px;
+    padding: 10px;
+    border-radius: 7px;
+    border-bottom: 2px solid white;
+}
+a{
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+.logo{
+    margin: 0 20px;
+    height: 60px;
+}
+
+.main {
+    background-image: url('../images/black coffee.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh; 
+}
+.main_coffee{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.main_h1{
+    position: relative;
+    left: 47%;
+    top: 160px;
+    color : rgb(255, 255, 255);
+    z-index: 1;
+    font-size: 120px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.div_coffee1{
+    padding: 40px 30px;
+    text-align: center;
+    width: 40%;
+    height: 280px;
+    
+}
+
+
+
+.div_coffee1 h1,p{
+    margin-bottom: 30px;
+    color: black;
+}
+
+.div_coffee2{
+    padding: 40px 30px;
+    text-align: center;
+    width: 40%;
+    height: 280px;
+}
+
+.div_coffee2 img{
+    width: 440px;
+    border-radius: 10px;
+}
+
+.footer_coffe{
+    height: 300px;
+    background-color: rgb(83, 61, 14);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: azure;
+}
+
+.footer_coffe ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+    height: 200px;
+}
+
+.footer_coffe li,h3{
+    margin: 10px;
+}
+
+.div_footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid ;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.body_gallery{
+    height: 100vh; 
+    width: 100%;
+    background-color: rgb(160, 110, 3);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.div_body_gallery1{
+    width: 300px;
+    height: 400px;
+    margin: 60px;
+    
+}
+.div_body_gallery1 h1{
+    margin: 30px;
+    font-size: 55px;
+}
+.div_body_gallery1 img{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    border: 3px solid white;
+    box-shadow: 0px 2px 100px rgba(150, 190, 190, 10);
+}
+
+.gallery2{
+    margin-top: 60px;
+    border: 3px solid rgb(255, 98, 0);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.103);
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+input{
+    margin: 30px;
+}
+
+.div_img1{
+    background-image: url('../images/coffeee.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+   
+}
+
+.div_img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(101, 64, 11);
+}
+
+ul .active{
+    border-bottom: 2px solid rgb(255, 213, 0);
+}
+
+.contact_main{
+    background-image: url('../images/cofee1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh;
+    width: 100%;
+}
+.contact_main1{
+    height:100vh;
+    width: 100%;
+    backdrop-filter: blur(3px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    text-align: center;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    height: 70vh;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: #f7f4ed3e;
+    z-index: 1000;
+}
+form input,textarea{
+    width: 400px;
+    text-align: center;
+    color: black;
+    background-color: #f1eee7c7;
+    padding: 15px;
+    margin: auto;
+    border-radius: 10px;
+}
+form input[type = "submit"]{
+    background-color: rgb(127, 90, 10);
+    color: rgb(251, 251, 251);
+    font-size: 20px;
+    font-weight: bold;
+    height: 55px;
+}
+
+form h1{
+    margin-top: 20px;
+}
